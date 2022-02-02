@@ -1,0 +1,114 @@
+* {
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #212833;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.profile-intro {
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile-name {
+    text-align: end;
+    border-right: solid 1px #818794;
+    padding-right: 20px;
+}
+
+.profile-name #role {
+    letter-spacing: 0.5px;
+    color: #bdbdbd;
+}
+
+.profile-name #fullname {
+    margin-top: -20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+
+.photo-container {
+    margin: 150px 0;
+    margin-bottom: 20px;
+}
+
+.photo-canvas {
+    background-color: #818794;
+    width: 300px;
+    height: 280px;
+    margin: auto;
+    border-top-left-radius: 310px;
+    border-top-right-radius: 310px;
+    border-bottom-left-radius: 290px;
+    border-bottom-right-radius: 290px;
+}
+
+.photo-profile {
+    display: block;
+    max-height: 300px;
+    margin: auto;
+    background-color: initial;
+}
+
+.profile-desc {
+    align-items: flex-end;
+}
+
+.description {
+    position: relative;
+    padding-left: 20px;
+    border-left: 1px solid #ffffff;
+    width: 250px;
+}
+
+.description .quote {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 70px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.logos {
+    margin: 0;
+}
+
+.logos img {
+    border-radius: 10px;
+    width: 40px;
+    margin: 20px 20px 0px 0px ;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .profile-name {
+        margin-top: 100px;
+        text-align: center;
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .photo-container {
+        margin: 50px 0;
+    }
+
+    .description {
+        margin: 75px auto;
+        border-left: none;
+        border-bottom: 1px solid #ffffff;
+        padding-left: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .description .quote {
+        left: 49%;
+        transform: translateX(-50%);
+    }
+}
