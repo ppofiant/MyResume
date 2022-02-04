@@ -26,8 +26,10 @@
 
 .profile-name #fullname {
     margin-top: -20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: bolder;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -85,6 +87,40 @@
     margin: 20px 20px 0px 0px ;
 }
 
+.profile-bio {
+    background-color: #161a20;
+}
+
+.profile-bio div {
+    margin: 50px 0;
+    background-color: #161a20;
+}
+
+.bio-label {
+    color: #818795;
+    font-size: 20px;
+    background-color: #161a20;
+}
+
+.bio {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 22px;
+    background-color: #161a20;
+}
+
+.text-born {
+    text-align: left;
+}
+
+.text-exp {
+    text-align: center;
+}
+
+.text-dob {
+    text-align: end;
+}
+
 @media only screen and (max-width: 991px) {
 
     .profile-name {
@@ -110,5 +146,13 @@
     .description .quote {
         left: 49%;
         transform: translateX(-50%);
+    }
+
+    .text-born {
+        text-align: center;
+    }
+
+    .text-dob {
+        text-align: center;
     }
 }

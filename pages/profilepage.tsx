@@ -41,34 +41,50 @@ const ProfilePage: React.FunctionComponent<{
     }
 
     return (
-        <div className="row m-0">
-            <div className="col-lg-4 profile-intro">
-                <div className="profile-name mb-4">
-                    <p id="role">{role}</p>
-                    <h1 id="fullname">POPO FIANTO</h1>
+        <div className="">
+            <div className="row m-0">
+                <div className="col-lg-4 profile-intro">
+                    <div className="profile-name mb-4">
+                        <p id="role">{role}</p>
+                        <p id="fullname">POPO FIANTO</p>
+                    </div>
                 </div>
-            </div>
-            <div className="col-lg-4">
-                <div className="photo-container">
-                    <div className="photo-canvas">
-                        <img src="https://ppofiant.github.io/cv-website/assets/popo.png" alt="photo" className="photo-profile"/>
+                <div className="col-lg-4">
+                    <div className="photo-container">
+                        <div className="photo-canvas">
+                            <img src="https://ppofiant.github.io/cv-website/assets/popo.png" alt="photo" className="photo-profile"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 profile-desc d-flex">
+                    <div className="description">
+                        <span className="quote">"</span>
+                        Highly responsible person
+                        about working and learning new
+                        things. Self-motivated to
+                        improve all about technology
+                        and design.
+                        <br />
+                        <p className="logos">
+                            <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'}><img src="https://logo.clearbit.com/linkedin.com" alt="linkedin" /></a>
+                            <a href="https://github.com/ppofiant" target={'_blank'}><img src="https://logo.clearbit.com/github.com" alt="github" /></a>
+                            <a href="mailto:ppofiant26@gmail.com" target={'_blank'}><img src="https://logo.clearbit.com/uchightech.com.tw" alt="gmail" /></a>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div className="col-lg-4 profile-desc d-flex">
-                <div className="description">
-                    <span className="quote">"</span>
-                    Highly responsible person
-                    about working and learning new
-                    things. Self-motivated to
-                    improve all about technology
-                    and design.
-                    <br />
-                    <p className="logos">
-                        <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'}><img src="https://logo.clearbit.com/linkedin.com" alt="linkedin" /></a>
-                        <a href="https://github.com/ppofiant" target={'_blank'}><img src="https://logo.clearbit.com/github.com" alt="github" /></a>
-                        <a href="mailto:ppofiant26@gmail.com" target={'_blank'}><img src="https://logo.clearbit.com/uchightech.com.tw" alt="gmail" /></a>
-                    </p>
+            <div className="row profile-bio my-5 justify-content-center mx-0">
+                <div className="col-lg-2 mx-0 text-born">
+                    <p className="bio-label m-0">Born in</p>
+                    <p className="bio">Samarinda</p>
+                </div>
+                <div className="col-lg-2 mx-0 text-exp">
+                    <p className="bio-label m-0">Experience</p>
+                    <p className="bio">1+ Years</p>
+                </div>
+                <div className="col-lg-2 mx-0 text-dob">
+                    <p className="bio-label m-0">Date of Birth</p>
+                    <p className="bio">26 September 2000</p>
                 </div>
             </div>
         </div>
