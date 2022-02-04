@@ -87,6 +87,14 @@
     margin: 20px 20px 0px 0px ;
 }
 
+.profile-bio-container {
+    background-color: #161a20;
+}
+
+.profile-bio-sub {
+    background-color: #161a20;
+}
+
 .profile-bio {
     background-color: #161a20;
 }

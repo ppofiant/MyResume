@@ -73,18 +73,22 @@ const ProfilePage: React.FunctionComponent<{
                     </div>
                 </div>
             </div>
-            <div className="row profile-bio my-5 justify-content-center mx-0">
-                <div className="col-lg-2 mx-0 text-born">
-                    <p className="bio-label m-0">Born in</p>
-                    <p className="bio">Samarinda</p>
-                </div>
-                <div className="col-lg-2 mx-0 text-exp">
-                    <p className="bio-label m-0">Experience</p>
-                    <p className="bio">1+ Years</p>
-                </div>
-                <div className="col-lg-2 mx-0 text-dob">
-                    <p className="bio-label m-0">Date of Birth</p>
-                    <p className="bio">26 September 2000</p>
+            <div className="profile-bio-container">
+                <div className="container profile-bio-sub">
+                    <div className="row profile-bio my-5 justify-content-center mx-0">
+                        <div className="col-lg-2 mx-0 text-born">
+                            <p className="bio-label m-0">Born in</p>
+                            <p className="bio">Samarinda</p>
+                        </div>
+                        <div className="col-lg-2 mx-0 text-exp">
+                            <p className="bio-label m-0">Experience</p>
+                            <p className="bio">1+ Years</p>
+                        </div>
+                        <div className="col-lg-2 mx-0 text-dob">
+                            <p className="bio-label m-0">Date of Birth</p>
+                            <p className="bio">26 September 2000</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
