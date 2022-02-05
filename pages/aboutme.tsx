@@ -28,7 +28,7 @@ const AboutMePage: React.FunctionComponent<{
                             Lately in 2021 i've working as an <span className="highlight">Fullstack Developer</span> intern at <span className="highlight">Accelist Lentera Indonesia</span>. I'd love to work with other people and friends most.
                         </p>
                         <p className="">
-                            I also have an experience with several programming language: C#, C++, Java, Javascript, Typescript and other framework: React.js, Next.js, and .NET.
+                            I also have an experience with several programming language: C#, C++, Java, Javascript, Typescript.
                         </p>
                         <p className="">
                             <button className="btn-resume">View Resume</button>

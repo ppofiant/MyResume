@@ -2,6 +2,7 @@ import Head from "next/head";
 import MainLayout from "shared/mainlayout";
 import ProfilePage from "pages/profilepage";
 import AboutMePage from "./aboutme";
+import MyProjectPage from "./myproject";
 
 const Home: React.FunctionComponent<{}> = (props) => {
     return (
@@ -14,6 +15,7 @@ const Home: React.FunctionComponent<{}> = (props) => {
         <MainLayout>
           <ProfilePage />
           <AboutMePage />
+          <MyProjectPage />
         </MainLayout>
         <footer></footer>
       </div>

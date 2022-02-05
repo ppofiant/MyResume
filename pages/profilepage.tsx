@@ -5,7 +5,7 @@ const ProfilePage: React.FunctionComponent<{
 
 }> = (props) => {
 
-    const listRoles: string[] = ['Software Engineer', 'Photography Enthusiast', 'Fresh Graduate'];
+    const listRoles: string[] = ['Software Engineer', 'Photography Enthusiast'];
     const [idxRole, setIdxRole] = useState<number>(0);
     const [role, setRole] = useState<string>('');
     const [isMaxLength, setIsMaxLength] = useState<boolean>(false);
@@ -75,7 +75,7 @@ const ProfilePage: React.FunctionComponent<{
             </div>
             <div className="profile-bio-container">
                 <div className="container profile-bio-sub">
-                    <div className="row profile-bio my-5 justify-content-center mx-0">
+                    <div className="row profile-bio my-5 justify-content-around mx-0">
                         <div className="col-lg-2 mx-0 text-born">
                             <p className="bio-label m-0">Born in</p>
                             <p className="bio">Samarinda</p>
