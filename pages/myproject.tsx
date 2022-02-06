@@ -9,10 +9,15 @@ export const MyProjectPage: React.FunctionComponent<{
             <div className="container">
                 <div className="row mx-0 project-container justify-content-center">
                     <div className="col-lg-3 m-auto">
-                        <h1 className="title-project my-5">MY PROJECT</h1>
+                        <h1 className="title-project my-5">
+                            <div>
+                                MY PROJECT
+                            </div>
+                            <div className="line-title-project"></div>
+                        </h1>
                     </div>
                     <div className="col-lg-3 column-project">
-                        <div className="card cards" style={{ border: '0.1px solid grey' }}>
+                        <div className="card cards" style={{ border: 'none' }}>
                             <img src="image/netflix-clone.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
@@ -25,7 +30,7 @@ export const MyProjectPage: React.FunctionComponent<{
                         </div>
                     </div>
                     <div className="col-lg-3 column-project">
-                        <div className="card cards" style={{ border: '0.1px solid grey' }}>
+                        <div className="card cards" style={{ border: 'none' }}>
                             <img src="image/readwaritestationary.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
@@ -38,7 +43,7 @@ export const MyProjectPage: React.FunctionComponent<{
                         </div>
                     </div>
                     <div className="col-lg-3 column-project">
-                        <div className="card cards" style={{ border: '0.1px solid grey' }}>
+                        <div className="card cards" style={{ border: 'none' }}>
                             <img src="image/website-v1.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">

@@ -10,7 +10,12 @@ const AboutMePage: React.FunctionComponent<{
             <div className="container">
                 <div className="row mx-0">
                     <div className="col-lg-6">
-                        <h1 className="about-me-title">ABOUT ME</h1>
+                        <h1 className="about-me-title">
+                            <div>
+                                ABOUT ME
+                            </div>
+                            <div className="line-title"></div>
+                        </h1>
                     </div>
                 </div>
                 <div className="row mx-0">
@@ -31,7 +36,7 @@ const AboutMePage: React.FunctionComponent<{
                             I also have an experience with several programming language: C#, C++, Java, Javascript, Typescript.
                         </p>
                         <p className="">
-                            <button className="btn-resume">View Resume</button>
+                            <a href="resume.pdf" target={'_blank'}><button className="btn-resume">View Resume</button></a>
                         </p>
                     </div>
                 </div>

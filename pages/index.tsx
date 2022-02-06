@@ -3,6 +3,7 @@ import MainLayout from "shared/mainlayout";
 import ProfilePage from "pages/profilepage";
 import AboutMePage from "./aboutme";
 import MyProjectPage from "./myproject";
+import ContactMePage from "./contactme";
 
 const Home: React.FunctionComponent<{}> = (props) => {
     return (
@@ -16,8 +17,20 @@ const Home: React.FunctionComponent<{}> = (props) => {
           <ProfilePage />
           <AboutMePage />
           <MyProjectPage />
+          <ContactMePage />
         </MainLayout>
-        <footer></footer>
+        <footer className="footers">
+          <div className="container">
+            <div className="row">
+              <p className="copyright col-lg-6">
+                © 2022 Popo Fianto
+              </p>
+              <p className="powered col-lg-6">
+                Powered by Next.js
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     );
 };

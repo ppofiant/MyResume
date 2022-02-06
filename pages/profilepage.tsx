@@ -42,7 +42,7 @@ const ProfilePage: React.FunctionComponent<{
 
     return (
         <div className="">
-            <div className="row m-0">
+            <div className="row m-0 profile-row align-items-center">
                 <div className="col-lg-4 profile-intro">
                     <div className="profile-name mb-4">
                         <p id="role">{role}</p>
@@ -66,9 +66,9 @@ const ProfilePage: React.FunctionComponent<{
                         and design.
                         <br />
                         <p className="logos">
-                            <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'}><img src="https://logo.clearbit.com/linkedin.com" alt="linkedin" /></a>
-                            <a href="https://github.com/ppofiant" target={'_blank'}><img src="https://logo.clearbit.com/github.com" alt="github" /></a>
-                            <a href="mailto:ppofiant26@gmail.com" target={'_blank'}><img src="https://logo.clearbit.com/uchightech.com.tw" alt="gmail" /></a>
+                            <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'}><img src="image/linkedin.png" alt="linkedin" /></a>
+                            <a href="https://github.com/ppofiant" target={'_blank'}><img src="image/github.png" alt="github" /></a>
+                            <a href="mailto:ppofiant26@gmail.com" target={'_blank'}><img src="image/gmail.png" alt="gmail" /></a>
                         </p>
                     </div>
                 </div>
