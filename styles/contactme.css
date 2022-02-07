@@ -22,11 +22,15 @@
 
 .btn-contact {
     outline: none;
-    border: 0.5px solid #ffffff;
+    border: 0.5px solid var(--txt-primary);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
     width: 100%;
+}
+
+.btn-contact a {
+    text-decoration: none;
 }
 
 .btn-logo {

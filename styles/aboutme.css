@@ -14,7 +14,7 @@
 }
 
 .about-right {
-    border-left: solid 1px #ffffff;
+    border-left: solid 1px var(--txt-primary);
     padding: 30px 0;
 }
 
@@ -26,10 +26,10 @@
 .btn-resume {
     outline: none;
     border-radius: 5px;
-    color: #ffffff;
+    color: var(--txt-primary);
     text-decoration: none;
     display: inline-block;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--txt-primary);
     padding: 8px;
     width: 40%;
     margin: 10px 0 0 0;
@@ -37,16 +37,16 @@
 }
 
 .btn-resume:hover {
-    border-color: rgba(255, 151, 15, 0.829);
+    border-color: var(--orange);
 }
 
 a .btn-resume {
-    color: #ffffff;
+    color: var(--txt-primary);
     text-decoration: none;
 }
 
 .highlight {
-    color: #ffb300;
+    color: var(--orange);
     font-weight: bold;
 }
 

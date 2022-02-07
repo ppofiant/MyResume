@@ -17,7 +17,7 @@ export const MyProjectPage: React.FunctionComponent<{
                         </h1>
                     </div>
                     <div className="col-lg-3 column-project">
-                        <div className="card cards" style={{ border: 'none' }}>
+                        <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
                             <img src="image/netflix-clone.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
@@ -30,7 +30,7 @@ export const MyProjectPage: React.FunctionComponent<{
                         </div>
                     </div>
                     <div className="col-lg-3 column-project">
-                        <div className="card cards" style={{ border: 'none' }}>
+                        <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
                             <img src="image/readwaritestationary.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
@@ -43,7 +43,7 @@ export const MyProjectPage: React.FunctionComponent<{
                         </div>
                     </div>
                     <div className="col-lg-3 column-project">
-                        <div className="card cards" style={{ border: 'none' }}>
+                        <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
                             <img src="image/website-v1.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">

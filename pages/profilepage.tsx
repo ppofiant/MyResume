@@ -74,7 +74,7 @@ const ProfilePage: React.FunctionComponent<{
                 </div>
             </div>
             <div className="profile-bio-container">
-                <div className="container profile-bio-sub">
+                <div className="profile-bio-sub">
                     <div className="row profile-bio my-5 justify-content-around mx-0">
                         <div className="col-lg-2 mx-0 text-born">
                             <p className="bio-label m-0">Born in</p>
