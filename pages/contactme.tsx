@@ -32,7 +32,7 @@ const ContactMePage: React.FunctionComponent<{
                     <h1 className="title-contact">GET IN TOUCH</h1>
                     <p className="text-center title-description">Feel free to ask anything about me through these contact. or follow my instagram instead to see my photo collections !</p>
                 </div>
-                <div className="row mx-0">
+                <div className="row mx-0" data-aos="zoom-out-up">
                     <div className="col-lg-6">
                         <ButtonContact logoSrc="image/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Popo Fianto</ButtonContact>
                     </div>

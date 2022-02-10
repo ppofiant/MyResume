@@ -13,10 +13,10 @@ export const MyProjectPage: React.FunctionComponent<{
                             <div>
                                 MY PROJECT
                             </div>
-                            <div className="line-title-project"></div>
+                            <div className="line-title-project" data-aos="zoom-in-right"></div>
                         </h1>
                     </div>
-                    <div className="col-lg-3 column-project">
+                    <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={400}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
                             <img src="image/netflix-clone.png" alt="..." className="card-img-top" />
                             <div className="card-body">
@@ -29,7 +29,7 @@ export const MyProjectPage: React.FunctionComponent<{
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 column-project">
+                    <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={450}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
                             <img src="image/readwaritestationary.png" alt="..." className="card-img-top" />
                             <div className="card-body">
@@ -42,7 +42,7 @@ export const MyProjectPage: React.FunctionComponent<{
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 column-project">
+                    <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={500}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
                             <img src="image/website-v1.png" alt="..." className="card-img-top" />
                             <div className="card-body">

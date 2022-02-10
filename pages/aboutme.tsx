@@ -14,7 +14,7 @@ const AboutMePage: React.FunctionComponent<{
                             <div>
                                 ABOUT ME
                             </div>
-                            <div className="line-title"></div>
+                            <div className="line-title" data-aos="zoom-out-right"></div>
                         </h1>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const AboutMePage: React.FunctionComponent<{
                     <div className="col-lg-6 mx-0">
 
                     </div>
-                    <div className="col-lg-6 mx-0 about-right">
+                    <div className="col-lg-6 mx-0 about-right" data-aos="fade-right" data-aos-delay={400}>
                         <p className="fw-bold">
                             My Name is Popo Fianto. I have been studying Computer Science in BINUS Unversity since 2018 - 2022.
                         </p>
