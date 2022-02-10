@@ -1,5 +1,6 @@
 import next from "next";
 import React from "react";
+import Image from "next/image";
 
 export const MyProjectPage: React.FunctionComponent<{
 
@@ -18,7 +19,7 @@ export const MyProjectPage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={400}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
-                            <img src="images/netflix-clone.png" alt="..." className="card-img-top" />
+                            <Image src="/images/netflix-clone.png" width="100%" height="75%" layout="responsive" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
                                     <span className="label personal">Personal</span>
@@ -31,7 +32,7 @@ export const MyProjectPage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={450}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
-                            <img src="images/readwaritestationary.png" alt="..." className="card-img-top" />
+                            <Image src="/images/readwaritestationary.png" width="100%" height="75%" layout="responsive" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
                                     <span className="label college">College</span>
@@ -44,14 +45,14 @@ export const MyProjectPage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={500}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
-                            <img src="images/website-v1.png" alt="..." className="card-img-top" />
+                            <Image src="/images/website-v1.png" width="100%" height="75%" layout="responsive" alt="..." className="card-img-top card-image" />
                             <div className="card-body">
                                 <div className="mb-3">
                                     <span className="label personal">Personal</span>
                                     <span className="label complete">Finished</span>
                                 </div>
                                 <p className="card-title project-title">CV Wesbite v1.0</p>
-                                <p className="card-text">This is my first cv website before i've got an internship.</p>
+                                <p className="card-text">This is my first cv website before i&apos;ve got an internship.</p>
                             </div>
                         </div>
                     </div>

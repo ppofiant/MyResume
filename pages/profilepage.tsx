@@ -1,5 +1,6 @@
 import next from "next";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const ProfilePage: React.FunctionComponent<{
 
@@ -16,7 +17,7 @@ const ProfilePage: React.FunctionComponent<{
             setRole(typeRole);
         }, (isMaxLength === true) ? 100 : 250);
         return () => clearInterval(interval);
-    }, [role]);
+    }, [role !== role]);
 
     const updateRole = (): string => {
         const currentRole = listRoles[idxRole];
@@ -52,13 +53,13 @@ const ProfilePage: React.FunctionComponent<{
                 <div className="col-lg-4">
                     <div className="photo-container">
                         <div className="photo-canvas">
-                            <img src="https://ppofiant.github.io/cv-website/assets/popo.png" alt="photo" className="photo-profile"/>
+                            <Image src="https://ppofiant.github.io/cv-website/assets/popo.png" alt="photo" className="photo-profile"/>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 profile-desc d-flex">
                     <div className="description">
-                        <span className="quote">"</span>
+                        <span className="quote">&quot;</span>
                         Highly responsible person
                         about working and learning new
                         things. Self-motivated to
@@ -66,9 +67,9 @@ const ProfilePage: React.FunctionComponent<{
                         and design.
                         <br />
                         <p className="logos">
-                            <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'}><img src="images/linkedin.png" alt="linkedin" /></a>
-                            <a href="https://github.com/ppofiant" target={'_blank'}><img src="images/github.png" alt="github" /></a>
-                            <a href="mailto:ppofiant26@gmail.com" target={'_blank'}><img src="images/gmail.png" alt="gmail" /></a>
+                            <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'} rel="noreferrer"><Image src="/images/linkedin.png" alt="linkedin" /></a>
+                            <a href="https://github.com/ppofiant" target={'_blank'} rel="noreferrer"><Image src="/images/github.png" alt="github" /></a>
+                            <a href="mailto:ppofiant26@gmail.com" target={'_blank'} rel="noreferrer"><Image src="/images/gmail.png" alt="gmail" /></a>
                         </p>
                     </div>
                 </div>

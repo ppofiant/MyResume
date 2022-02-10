@@ -1,5 +1,6 @@
 import next from "next";
 import React from "react";
+import Image from "next/image";
 
 
 const ButtonContact: React.FunctionComponent<{
@@ -9,10 +10,10 @@ const ButtonContact: React.FunctionComponent<{
 }> = (props) => {
     return (
         <button className="btn-contact w-100" id={props.id}>
-            <a href={props.href} target={'_blank'}>
+            <a href={props.href} target={'_blank'} rel="noreferrer">
                 <div className="row mx-0">
                     <div className="col-1 p-0">
-                        <img className="btn-logo" src={props.logoSrc} alt="..." />
+                        <Image className="btn-logo" src={props.logoSrc} width="100%" height="100%" layout="responsive" objectFit="contain" alt="..." />
                     </div>
                     <div className="col-11 my-auto btn-label-contact">
                         <p>{props.children}</p>
@@ -35,16 +36,16 @@ const ContactMePage: React.FunctionComponent<{
                 </div>
                 <div className="row mx-0" data-aos="zoom-out-up">
                     <div className="col-lg-6">
-                        <ButtonContact id={'linkedin'} logoSrc="images/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Popo Fianto</ButtonContact>
+                        <ButtonContact id={'linkedin'} logoSrc="/images/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Popo Fianto</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact id={'instagram'} logoSrc="images/instagram.png" href="https://github.com/ppofiant">ppofiant</ButtonContact>
+                        <ButtonContact id={'instagram'} logoSrc="/images/instagram.png" href="https://github.com/ppofiant">ppofiant</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact id={'email'} logoSrc="images/gmail.png" href="mailto:ppofiant26@gmail.com">ppofiant26@gmail.com</ButtonContact>
+                        <ButtonContact id={'email'} logoSrc="/images/gmail.png" href="mailto:ppofiant26@gmail.com">ppofiant26@gmail.com</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact id={'whatsapp'} logoSrc="images/whatsapp.png" href="https://wa.wizard.id/ce580d">(+62) 812-1527-4999</ButtonContact>
+                        <ButtonContact id={'whatsapp'} logoSrc="/images/whatsapp.png" href="https://wa.wizard.id/ce580d">(+62) 812-1527-4999</ButtonContact>
                     </div>
                 </div>
             </div>

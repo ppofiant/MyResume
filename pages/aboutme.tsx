@@ -30,7 +30,7 @@ const AboutMePage: React.FunctionComponent<{
                             Photography is my confidence. Every moment that i like must have some photo to memorize. Beside photography, i also confidence with coding and app development.
                         </p>
                         <p className="">
-                            Lately in 2021 i've working as an <span className="highlight">Fullstack Developer</span> intern at <span className="highlight">Accelist Lentera Indonesia</span>. I'd love to work with other people and friends most.
+                            Lately in 2021 i&apos;ve working as an <span className="highlight">Fullstack Developer</span> intern at <span className="highlight">Accelist Lentera Indonesia</span>. I&apos;d love to work with other people and friends most.
                         </p>
                         <p className="">
                             I also have an experience with several programming language: C#, C++, Java, Javascript, Typescript.
