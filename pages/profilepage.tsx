@@ -12,34 +12,36 @@ const ProfilePage: React.FunctionComponent<{
     const [isMaxLength, setIsMaxLength] = useState<boolean>(false);
 
     useEffect(() => {
+        const updateRole = (): string => {
+            const currentRole = listRoles[idxRole];
+            const length = role.length;
+            if (currentRole !== undefined && currentRole !== '') {
+                if (isMaxLength === true) {
+                    const roles = currentRole.substring(0, length - 1);
+                    if (roles === '') {
+                        setIsMaxLength(false);
+                        const idx = (idxRole === listRoles.length - 1) ? 0 : idxRole + 1;
+                        setIdxRole(idx);
+                    }
+                    return roles;
+                }
+                const roles = currentRole.substring(0, length + 1);
+                if (roles === currentRole) {
+                    setIsMaxLength(true);
+                }
+                return roles;
+            }
+            return '';
+        }
+
         const interval = setInterval(() => {
             const typeRole = updateRole();
             setRole(typeRole);
         }, (isMaxLength === true) ? 100 : 250);
         return () => clearInterval(interval);
-    }, [role !== role]);
+    });
 
-    const updateRole = (): string => {
-        const currentRole = listRoles[idxRole];
-        const length = role.length;
-        if (currentRole !== undefined && currentRole !== '') {
-            if (isMaxLength === true) {
-                const roles = currentRole.substring(0, length - 1);
-                if (roles === '') {
-                    setIsMaxLength(false);
-                    const idx = (idxRole === listRoles.length - 1) ? 0 : idxRole + 1;
-                    setIdxRole(idx);
-                }
-                return roles;
-            }
-            const roles = currentRole.substring(0, length + 1);
-            if (roles === currentRole) {
-                setIsMaxLength(true);
-            }
-            return roles;
-        }
-        return '';
-    }
+    
 
     return (
         <div className="">
