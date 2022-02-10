@@ -69,3 +69,13 @@
     margin: 0;
     word-wrap: break-word;
 }
+
+@media only screen and (max-width: 991px) {
+    .container-contact {
+        height: 100vh;
+    }
+
+    .contact-wrapper {
+        padding: 20% 0;
+    }
+}
