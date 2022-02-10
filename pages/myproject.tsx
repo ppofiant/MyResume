@@ -18,7 +18,7 @@ export const MyProjectPage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={400}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
-                            <img src="image/netflix-clone.png" alt="..." className="card-img-top" />
+                            <img src="images/netflix-clone.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
                                     <span className="label personal">Personal</span>
@@ -31,7 +31,7 @@ export const MyProjectPage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={450}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
-                            <img src="image/readwaritestationary.png" alt="..." className="card-img-top" />
+                            <img src="images/readwaritestationary.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
                                     <span className="label college">College</span>
@@ -44,7 +44,7 @@ export const MyProjectPage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-3 column-project" data-aos="fade-right" data-aos-delay={500}>
                         <div className="card cards" style={{ border: 'none', borderRadius: '7px' }}>
-                            <img src="image/website-v1.png" alt="..." className="card-img-top" />
+                            <img src="images/website-v1.png" alt="..." className="card-img-top" />
                             <div className="card-body">
                                 <div className="mb-3">
                                     <span className="label personal">Personal</span>
