@@ -105,12 +105,11 @@
 }
 
 .logos {
-    margin: 0;
+    margin: 10px 0;
 }
 
-.logos img {
-    width: 40px;
-    margin: 20px 20px 0px 0px ;
+.image-logo {
+    margin: 10px 0px 0px 10px;
 }
 
 .profile-bio-container {

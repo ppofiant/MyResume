@@ -53,7 +53,7 @@ const ProfilePage: React.FunctionComponent<{
                 <div className="col-lg-4">
                     <div className="photo-container">
                         <div className="photo-canvas">
-                            <Image src="https://ppofiant.github.io/cv-website/assets/popo.png" alt="photo" className="photo-profile"/>
+                            <Image src="/images/popo.png" width="300px" height="300px" objectFit="contain" layout="responsive" alt="photo" className="photo-profile"/>
                         </div>
                     </div>
                 </div>
@@ -67,9 +67,9 @@ const ProfilePage: React.FunctionComponent<{
                         and design.
                         <br />
                         <p className="logos">
-                            <a href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'} rel="noreferrer"><Image src="/images/linkedin.png" alt="linkedin" /></a>
-                            <a href="https://github.com/ppofiant" target={'_blank'} rel="noreferrer"><Image src="/images/github.png" alt="github" /></a>
-                            <a href="mailto:ppofiant26@gmail.com" target={'_blank'} rel="noreferrer"><Image src="/images/gmail.png" alt="gmail" /></a>
+                            <a className="image-logo" href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'} rel="noreferrer"><Image src="/images/linkedin.png" width="40%" height="40%" alt="linkedin" /></a>
+                            <a className="image-logo" href="https://github.com/ppofiant" target={'_blank'} rel="noreferrer"><Image src="/images/github.png" width="40%" height="40%" alt="github" /></a>
+                            <a className="image-logo" href="mailto:ppofiant26@gmail.com" target={'_blank'} rel="noreferrer"><Image src="/images/gmail.png" width="40%" height="40%" alt="gmail" /></a>
                         </p>
                     </div>
                 </div>
