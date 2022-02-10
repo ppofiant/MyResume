@@ -27,6 +27,7 @@
     padding: 5px;
     margin: 5px;
     width: 100%;
+    transition: border-color 0.2s ease;
 }
 
 .btn-contact a {
@@ -42,6 +43,22 @@
 
 .btn-label-contact {
     margin: auto 0;
+}
+
+#linkedin:hover {
+    border-color: #0b65c3;
+}
+
+#instagram:hover {
+    border-color: #CF7EBF;
+}
+
+#email:hover {
+    border-color: #D33F36;
+}
+
+#whatsapp:hover {
+    border-color: #5ACC59;
 }
 
 .btn-label-contact p {

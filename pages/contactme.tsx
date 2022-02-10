@@ -5,9 +5,10 @@ import React from "react";
 const ButtonContact: React.FunctionComponent<{
     logoSrc: string;
     href: string;
+    id: string;
 }> = (props) => {
     return (
-        <button className="btn-contact w-100">
+        <button className="btn-contact w-100" id={props.id}>
             <a href={props.href} target={'_blank'}>
                 <div className="row mx-0">
                     <div className="col-1 p-0">
@@ -34,16 +35,16 @@ const ContactMePage: React.FunctionComponent<{
                 </div>
                 <div className="row mx-0" data-aos="zoom-out-up">
                     <div className="col-lg-6">
-                        <ButtonContact logoSrc="image/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Popo Fianto</ButtonContact>
+                        <ButtonContact id={'linkedin'} logoSrc="image/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Popo Fianto</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact logoSrc="image/instagram.png" href="https://github.com/ppofiant">ppofiant</ButtonContact>
+                        <ButtonContact id={'instagram'} logoSrc="image/instagram.png" href="https://github.com/ppofiant">ppofiant</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact logoSrc="image/gmail.png" href="mailto:ppofiant26@gmail.com">ppofiant26@gmail.com</ButtonContact>
+                        <ButtonContact id={'email'} logoSrc="image/gmail.png" href="mailto:ppofiant26@gmail.com">ppofiant26@gmail.com</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact logoSrc="image/whatsapp.png" href="https://wa.wizard.id/ce580d">(+62) 812-1527-4999</ButtonContact>
+                        <ButtonContact id={'whatsapp'} logoSrc="image/whatsapp.png" href="https://wa.wizard.id/ce580d">(+62) 812-1527-4999</ButtonContact>
                     </div>
                 </div>
             </div>
