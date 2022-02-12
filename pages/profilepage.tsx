@@ -45,7 +45,7 @@ const ProfilePage: React.FunctionComponent<{
 
     return (
         <div className="">
-            <div className="row m-0 profile-row align-items-center">
+            <div className="row mx-0 profile-row align-items-center">
                 <div className="col-lg-4 profile-intro">
                     <div className="profile-name mb-4">
                         <p id="role">{role}</p>
@@ -59,7 +59,7 @@ const ProfilePage: React.FunctionComponent<{
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 profile-desc d-flex">
+                <div className="col-lg-4 profile-desc">
                     <div className="description">
                         <span className="quote">&quot;</span>
                         Highly responsible person
@@ -67,7 +67,6 @@ const ProfilePage: React.FunctionComponent<{
                         things. Self-motivated to
                         improve all about technology
                         and design.
-                        <br />
                         <p className="logos">
                             <a className="image-logo" href="https://www.linkedin.com/in/popo-fianto-25b678198/" target={'_blank'} rel="noreferrer"><Image src="/images/linkedin.png" width="40%" height="40%" alt="linkedin" /></a>
                             <a className="image-logo" href="https://github.com/ppofiant" target={'_blank'} rel="noreferrer"><Image src="/images/github.png" width="40%" height="40%" alt="github" /></a>
@@ -76,22 +75,18 @@ const ProfilePage: React.FunctionComponent<{
                     </div>
                 </div>
             </div>
-            <div className="profile-bio-container">
-                <div className="profile-bio-sub">
-                    <div className="row profile-bio my-5 justify-content-around mx-0">
-                        <div className="col-lg-2 mx-0 text-born">
-                            <p className="bio-label m-0">Born in</p>
-                            <p className="bio">Samarinda</p>
-                        </div>
-                        <div className="col-lg-2 mx-0 text-exp">
-                            <p className="bio-label m-0">Experience</p>
-                            <p className="bio">1+ Years</p>
-                        </div>
-                        <div className="col-lg-2 mx-0 text-dob">
-                            <p className="bio-label m-0">Date of Birth</p>
-                            <p className="bio">26 September 2000</p>
-                        </div>
-                    </div>
+            <div className="row profile-bio my-5 justify-content-around mx-0">
+                <div className="col-lg-2 mx-0 text-born">
+                    <p className="bio-label m-0">Born in</p>
+                    <p className="bio">Samarinda</p>
+                </div>
+                <div className="col-lg-2 mx-0 text-exp">
+                    <p className="bio-label m-0">Experience</p>
+                    <p className="bio">1+ Years</p>
+                </div>
+                <div className="col-lg-2 mx-0 text-dob">
+                    <p className="bio-label m-0">Date of Birth</p>
+                    <p className="bio">26 September 2000</p>
                 </div>
             </div>
         </div>

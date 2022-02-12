@@ -32,12 +32,11 @@
 }
 
 .profile-row {
-    height: 100vh;
+    height: 100%;
 }
 
 .profile-intro {
-    display: flex;
-    align-items: flex-end;
+    width: 100%;
 }
 
 .profile-name {
@@ -60,15 +59,9 @@
 }
 
 
-.photo-container {
-    margin: 150px 0;
-    margin-bottom: 200px;
-}
-
 .photo-canvas {
     background-color: var(--grey);
-    width: 300px;
-    height: 280px;
+    width: 50%;
     margin: auto;
     border-top-left-radius: 310px;
     border-top-right-radius: 310px;
@@ -77,21 +70,16 @@
 }
 
 .photo-profile {
-    display: block;
     max-height: 300px;
     margin: auto;
     background-color: initial;
-}
-
-.profile-desc {
-    align-items: flex-end;
 }
 
 .description {
     position: relative;
     padding-left: 20px;
     border-left: 1px solid var(--txt-primary);
-    width: 250px;
+    width: 60%;
 }
 
 .description .quote {
@@ -114,7 +102,6 @@
 
 .profile-bio-container {
     background-color: var(--bg-secondary);
-    margin: auto;
 }
 
 .profile-bio-sub {
@@ -126,7 +113,7 @@
 }
 
 .profile-bio div {
-    margin: 50px 0;
+    padding: 50px 0;
     background-color: var(--bg-secondary);
 }
 
@@ -180,6 +167,7 @@
     vertical-align: middle;
     margin: 0;
     color: var(--txt-secondary);
+    font-size: 14px;
 }
 
 .copyright {
@@ -194,6 +182,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 3%;
+    z-index: 1;
 }
 
 .toggle-wrapper {
@@ -243,7 +232,7 @@
     }
 
     .profile-bio-container {
-        margin: 300px auto;
+        height: 100vh;
     }
 
     .text-born {

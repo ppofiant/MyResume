@@ -1,7 +1,11 @@
 .container-contact {
-    height: 95vh;
+    height: 95%;
     margin: auto;
     vertical-align: center;
+}
+
+.contact-wrapper {
+    margin: 10%;
 }
 
 .title-container {
@@ -9,7 +13,7 @@
 }
 
 .title-description {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 30px;
 }
 
@@ -27,6 +31,7 @@
     padding: 5px;
     margin: 5px;
     width: 100%;
+    position: relative;
     transition: border-color 0.2s ease;
 }
 
@@ -36,7 +41,6 @@
 
 .btn-logo {
     width: 100%;
-    height: 40px;
     border-radius: 2px;
     object-fit: contain;
 }
@@ -72,10 +76,14 @@
 
 @media only screen and (max-width: 991px) {
     .container-contact {
-        height: 100vh;
+        height: 100%;
     }
 
     .contact-wrapper {
         margin: 20% 0;
+    }
+
+    .btn-label-contact p {
+        font-size: 14px;
     }
 }
