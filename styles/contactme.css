@@ -2,6 +2,7 @@
     height: 95%;
     margin: auto;
     vertical-align: center;
+    min-height: 95vh;
 }
 
 .contact-wrapper {

@@ -33,6 +33,7 @@
 
 .profile-row {
     height: 100%;
+    min-height: 100vh;
 }
 
 .profile-intro {
