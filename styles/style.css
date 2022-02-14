@@ -49,6 +49,8 @@
 .profile-name #role {
     letter-spacing: 0.5px;
     color: var(--role);
+    content: '';
+    height: 30px;
 }
 
 .profile-name #fullname {
