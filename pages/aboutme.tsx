@@ -1,10 +1,21 @@
 import next from "next";
+import Image from "next/image";
 import React from "react";
 
 
 const AboutMePage: React.FunctionComponent<{
 
 }> = () => {
+
+    const renderAge = (): number => {
+        const dateNow = new Date(Date.now());
+        if (dateNow.getMonth() >= 8 && dateNow.getDate() >= 26) {
+            // kalau udah tanggal ulang tahun, tambah umur 1 tahun 
+            return dateNow.getFullYear() - 2000;
+        }
+        return dateNow.getFullYear() - 2000 - 1;
+    }
+
     return (
         <div className="about-me">
             <div className="container">
@@ -19,8 +30,19 @@ const AboutMePage: React.FunctionComponent<{
                     </div>
                 </div>
                 <div className="row mx-0">
-                    <div className="col-lg-6 mx-0">
-
+                    <div className="col-lg-6 mx-0 my-auto about-left">
+                        <div className="row mx-0 justify-content-end">
+                            <div className="col-lg-2 about-left-container text-center">
+                                <div className="college-container">
+                                    <Image className="college-icon" src="/images/age.png" width="80%" height="80%" objectFit="contain" />
+                                    <p className="college-label">{renderAge()}</p>
+                                </div>
+                                <div className="college-container">
+                                    <Image className="college-icon" src="/images/college.png" width="80%" height="80%" objectFit="contain" />
+                                    <p className="college-label">Joined 2018</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-lg-6 mx-0 about-right" data-aos="fade-right" data-aos-delay={400}>
                         <p className="fw-bold">

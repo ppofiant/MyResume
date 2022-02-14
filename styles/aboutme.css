@@ -13,6 +13,25 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.about-left {
+    padding: 30px 0;
+}
+
+.college-container {
+    margin: 20% 0;
+}
+
+.college-icon {
+    background: none;
+    filter: var(--college-icon);
+}
+
+.college-label {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .about-right {
     border-left: solid 1px var(--txt-primary);
     padding: 30px 0;
@@ -69,5 +88,14 @@ a .btn-resume {
 
     .btn-resume {
         margin: 20px;
+    }
+
+    .about-left-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .college-container {
+        margin: 10% 0;
     }
 }

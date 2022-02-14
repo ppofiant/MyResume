@@ -8,6 +8,7 @@
     --txt-secondary: #dadada;
     --orange: #ffb300;
     --bg-card: #ececec;
+    --college-icon: '';
 }
 
 :root.dark {
@@ -19,6 +20,7 @@
     --txt-secondary: #dadada;
     --orange: #ffb300;
     --bg-card: #161a20;
+    --college-icon: invert(74%) sepia(20%) saturate(6632%) hue-rotate(1deg) brightness(106%) contrast(106%);
 }
 
 * {
