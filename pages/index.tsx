@@ -24,7 +24,7 @@ const Home: React.FunctionComponent<{}> = (props) => {
           <div className="container">
             <div className="row mx-auto">
               <p className="copyright col-lg-6">
-                © 2022 Popo Fianto
+                © 2022 Popo Fianto &bull; All Right Reserved
               </p>
               <p className="powered col-lg-6">
                 Powered by Next.js

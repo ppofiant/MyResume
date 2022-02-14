@@ -27,7 +27,6 @@
     font-family: 'Roboto', 'sans-serif';
     background-color: var(--bg-primary);
     color: var(--txt-primary);
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -225,7 +224,7 @@
     .description {
         margin: 75px auto;
         border-left: none;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid var(--txt-primary);
         padding-left: 0;
         padding-bottom: 20px;
         text-align: center;

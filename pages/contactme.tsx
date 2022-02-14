@@ -34,18 +34,18 @@ const ContactMePage: React.FunctionComponent<{
                     <h1 className="title-contact">GET IN TOUCH</h1>
                     <p className="text-center title-description">Feel free to ask anything about me through these contact. or follow my instagram instead to see my photo collections !</p>
                 </div>
-                <div className="row mx-0 contact-wrapper" data-aos="zoom-out-up">
+                <div className="row mx-0 contact-wrapper" data-aos="flip-down">
                     <div className="col-lg-6">
-                        <ButtonContact id={'linkedin'} logoSrc="/images/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Popo Fianto</ButtonContact>
+                        <ButtonContact id={'linkedin'} logoSrc="/images/linkedin.png" href="https://www.linkedin.com/in/popo-fianto-25b678198/">Linkedin</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact id={'instagram'} logoSrc="/images/instagram.png" href="https://instagram.com/ppofiant">ppofiant</ButtonContact>
+                        <ButtonContact id={'instagram'} logoSrc="/images/instagram.png" href="https://instagram.com/ppofiant">Instagram</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact id={'email'} logoSrc="/images/gmail.png" href="mailto:ppofiant26@gmail.com">ppofiant26@gmail.com</ButtonContact>
+                        <ButtonContact id={'email'} logoSrc="/images/gmail.png" href="mailto:ppofiant26@gmail.com">Email</ButtonContact>
                     </div>
                     <div className="col-lg-6">
-                        <ButtonContact id={'whatsapp'} logoSrc="/images/whatsapp.png" href="https://wa.wizard.id/ce580d">(+62) 812-1527-4999</ButtonContact>
+                        <ButtonContact id={'whatsapp'} logoSrc="/images/whatsapp.png" href="https://wa.wizard.id/ce580d">Whatsapp</ButtonContact>
                     </div>
                 </div>
             </div>
