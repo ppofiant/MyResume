@@ -32,7 +32,7 @@ const AboutMePage: React.FunctionComponent<{
                 <div className="row mx-0">
                     <div className="col-lg-6 mx-0 my-auto about-left">
                         <div className="row mx-0 justify-content-end">
-                            <div className="col-lg-2 about-left-container text-center">
+                            <div className="col-lg-2 about-left-container text-center" data-aos="fade-left">
                                 <div className="college-container">
                                     <Image className="college-icon" src="/images/age.png" width="80%" height="80%" objectFit="contain" />
                                     <p className="college-label">{renderAge()}</p>
