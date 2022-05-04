@@ -46,16 +46,20 @@ const AboutMePage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-6 mx-0 about-right" data-aos="fade-right" data-aos-delay={400}>
                         <p className="fw-bold">
-                            My Name is Popo Fianto. I have been studying Computer Science in BINUS Unversity since 2018 - 2022.
+                            My Name is Popo Fianto, currently work as Fullstack Developer
                         </p>
                         <p className="">
-                            Photography is my confidence. Every moment that i like must have some photo to memorize. Beside photography, i also confidence with coding and app development.
+                            Lately in 2021 i&apos;ve working as an <span className="highlight">Fullstack Developer</span> at <span className="highlight">Accelist Lentera Indonesia</span>.
+                            I&apos;d love to work with other people and friends most.
                         </p>
                         <p className="">
-                            Lately in 2021 i&apos;ve working as an <span className="highlight">Fullstack Developer</span> intern at <span className="highlight">Accelist Lentera Indonesia</span>. I&apos;d love to work with other people and friends most.
+                            I have many experience in many kind of project like: Employee Management System, Customer care system, Web Game System, and many project including web / mobile apps
                         </p>
                         <p className="">
-                            I also have an experience with several programming language: C#, C++, Java, Javascript, Typescript.
+                            Beside of the project experience, i also unlocked my skills with several programming language: C#, C++, Java, Javascript, Typescript. and also several frameworks using that language.
+                        </p>
+                        <p className="">
+                            To know me better, you can click this button below and see my detail experiences.
                         </p>
                         <p className="">
                             <a href="resume.pdf" target={'_blank'}><button className="btn-resume">View Resume</button></a>

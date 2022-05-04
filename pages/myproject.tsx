@@ -25,8 +25,13 @@ export const MyProjectPage: React.FunctionComponent<{
                                     <span className="label personal">Personal</span>
                                     <span className="label complete">Finished</span>
                                 </div>
-                                <p className="card-title project-title">Netflix Clone</p>
-                                <p className="card-text">This is my first personal project to improve my frontend development by cloning the landing page of netflix.</p>
+                                <div className="card-desc">
+                                    <p className="card-title project-title">Netflix Clone</p>
+                                    <p className="card-text">This is my first personal project to improve my frontend development by cloning the landing page of netflix.</p>
+                                </div>
+                                <div className="mt-4">
+                                    <a href="https://ppofiant.github.io/Netflix-Clone/" target={'_blank'} className="btn-view" rel="noreferrer">View Demo</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -38,8 +43,11 @@ export const MyProjectPage: React.FunctionComponent<{
                                     <span className="label college">College</span>
                                     <span className="label complete">Finished</span>
                                 </div>
-                                <p className="card-title project-title">ReadWarite Stationary</p>
-                                <p className="card-text">This is my college project that develop the stationary e-commerce. Thanks for my collagues for the teamwork.</p>
+                                <div className="card-desc">
+                                    <p className="card-title project-title">ReadWarite Stationary</p>
+                                    <p className="card-text">This is my college project that develop the stationary e-commerce. Thanks for my collagues for the teamwork.</p>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -51,11 +59,17 @@ export const MyProjectPage: React.FunctionComponent<{
                                     <span className="label personal">Personal</span>
                                     <span className="label complete">Finished</span>
                                 </div>
-                                <p className="card-title project-title">CV Wesbite v1.0</p>
-                                <p className="card-text">This is my first cv website before i&apos;ve got an internship.</p>
+                                <div className="card-desc">
+                                    <p className="card-title project-title">CV Wesbite v1.0</p>
+                                    <p className="card-text">This is my first cv website before i&apos;ve got an internship.</p>
+                                </div>
+                                <div className="mt-4">
+                                    <a href="https://ppofiant.github.io/cv-website/" target={'_blank'} className="btn-view" rel="noreferrer">View Demo</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

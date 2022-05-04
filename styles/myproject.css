@@ -78,6 +78,27 @@
     color: #000000;
 }
 
+.card-desc {
+    min-height: 120px;
+}
+
+.btn-view {
+    border: 1px solid var(--txt-primary);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    transition: border-color, color 0.08s linear;
+    width: 40%;
+    text-decoration: none;
+    color: var(--txt-primary);
+    margin: 10px 0;
+}
+
+.btn-view:hover {
+    border-color: var(--orange);
+    color: var(--txt-primary);
+}
+
 .complete {
     background-color: #106205;
     color: #ffffff;
