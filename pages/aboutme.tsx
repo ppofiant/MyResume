@@ -32,13 +32,13 @@ const AboutMePage: React.FunctionComponent<{
                 <div className="row mx-0">
                     <div className="col-lg-6 mx-0 my-auto about-left">
                         <div className="row mx-0 justify-content-end">
-                            <div className="col-lg-2 about-left-container text-center" data-aos="fade-left">
+                            <div className="col-lg-2 about-left-container text-center" data-aos="flip-left">
                                 <div className="college-container">
-                                    <Image className="college-icon" src="/images/age.png" width="80%" height="80%" objectFit="contain" />
+                                    <Image className="college-icon" src="/images/age.png" width="80%" height="80%" objectFit="contain" alt="#" />
                                     <p className="college-label">{renderAge()}</p>
                                 </div>
                                 <div className="college-container">
-                                    <Image className="college-icon" src="/images/college.png" width="80%" height="80%" objectFit="contain" />
+                                    <Image className="college-icon" src="/images/college.png" width="80%" height="80%" objectFit="contain" alt="#" />
                                     <p className="college-label">Joined 2018</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const AboutMePage: React.FunctionComponent<{
                     </div>
                     <div className="col-lg-6 mx-0 about-right" data-aos="fade-right" data-aos-delay={400}>
                         <p className="fw-bold">
-                            My Name is Popo Fianto, currently work as Fullstack Developer
+                            My Name is Popo Fianto, currently working as Fullstack Developer
                         </p>
                         <p className="">
                             Lately in 2021 i&apos;ve working as an <span className="highlight">Fullstack Developer</span> at <span className="highlight">Accelist Lentera Indonesia</span>.

@@ -36,6 +36,8 @@
 
 .card-body, .card-body * {
     background-color: var(--bg-card);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .card-image {
@@ -79,7 +81,7 @@
 }
 
 .card-desc {
-    min-height: 120px;
+    height: 180px;
 }
 
 .btn-view {
@@ -87,20 +89,32 @@
     border-radius: 5px;
     outline: none;
     padding: 10px;
-    transition: border-color, color 0.08s linear;
+    transition: border-color 0.08s linear, color 0.08s linear;
     width: 40%;
     text-decoration: none;
     color: var(--txt-primary);
     margin: 10px 0;
+    font-size: 12px;
 }
 
 .btn-view:hover {
     border-color: var(--orange);
-    color: var(--txt-primary);
+    color: var(--txt-secondary);
 }
 
 .complete {
     background-color: #106205;
+    color: #ffffff;
+}
+
+
+.private-company {
+    background-color: #add8e6;
+    color: #000000;
+}
+
+.intern {
+    background-color: brown;
     color: #ffffff;
 }
 
